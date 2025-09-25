@@ -1,16 +1,17 @@
-Campus Course & Records Manager (CCRM)
+# Campus Course & Records Manager (CCRM)
 
-Author Details:
+### Author Details:
 
 Name:Vaibhav
+
 Registration no:24BCE10717
 
-1. Project Overview
+## 1. Project Overview
 This project is a comprehensive, console-based Java application designed to manage student and course records for an academic institution. I built this application using Java SE 17 and the Eclipse IDE, focusing on clean code, Object-Oriented principles, and modern Java features.
 
 The application provides a menu-driven interface for administrators to manage students, courses, enrollments, and grades. It also includes robust file utilities for importing initial data and for exporting and backing up the current application state.
 
-2. Key Features
+## 2. Key Features
 Student Management: Add new students, list all students, and view a detailed profile and academic transcript for any student.
 
 Course Management: List all available courses and search for courses by instructor.
@@ -23,7 +24,7 @@ File I/O: Load initial data from CSV files and export the current data (students
 
 Backup Utility: Create a timestamped backup of all exported data in a separate directory.
 
-3. How to Run This Project
+## 3.How to Run This Project
 Prerequisites
 Java Development Kit (JDK) 17 or later.
 
@@ -49,7 +50,7 @@ The project should appear in the "Projects" box. Make sure it's checked.
 Click "Finish".
 ![project import](https://github.com/Vaibhav07116/CCRM/blob/f558893c028058e9a711be8d0c84edb83e4bc85f/screenshots/eclipse-project-import.png)
 
-Run the Application:
+###  Run the Application:
 
 In the "Package Explorer" on the left, navigate to src > edu.ccrm.cli.
 
@@ -60,7 +61,7 @@ Right-click on CCRMApp.java and select Run As > 1 Java Application.
 The application will start running in the Console window at the bottom of the IDE.
 ![working](https://github.com/Vaibhav07116/CCRM/blob/2eb2e6d44422f3ddfc495a7a22c518537069f400/screenshots/working.jpeg)
 
-4. Usage Walkthrough
+## 4. Usage Walkthrough
 Once the application is running, you can interact with it using the console menu:
 
 Load Data: The application automatically loads initial student, course, and instructor data from the /test-data directory on startup.
@@ -77,7 +78,7 @@ View Transcript: Go to 1. Manage Students -> 3. View Student Profile & Transcrip
 
 Export & Backup: Navigate to 4. File Utilities to export the current data to the /exports folder and create a timestamped backup in the /backups folder.
 
-5. Core Java Concepts Demonstrated
+## 5. Core Java Concepts Demonstrated
 This project was built to demonstrate a wide range of core Java concepts as required by the course syllabus.
 
 A. The Java Platform
@@ -91,86 +92,89 @@ Java ME (Micro Edition): A subset of Java SE designed for resource-constrained d
 
 Java EE (Enterprise Edition): Built on top of Java SE, this edition provides a framework for building large-scale, multi-tiered, and distributed enterprise applications (e.g., web services, server-side applications).
 
-JDK vs. JRE vs. JVM:
+## JDK vs. JRE vs. JVM:
 
-JVM (Java Virtual Machine): An abstract machine that provides the runtime environment in which Java bytecode can be executed. It's the component that makes Java "platform-independent."
+### JVM (Java Virtual Machine):
+An abstract machine that provides the runtime environment in which Java bytecode can be executed. It's the component that makes Java "platform-independent."
 
-JRE (Java Runtime Environment): A software package that contains what is required to run a Java program. It includes the JVM, core libraries, and other supporting files.
+### JRE (Java Runtime Environment):
+A software package that contains what is required to run a Java program. It includes the JVM, core libraries, and other supporting files.
 
-JDK (Java Development Kit): A superset of the JRE. It contains everything in the JRE, plus the tools necessary to develop Java applications, most importantly the compiler (javac).
+### JDK (Java Development Kit):
+A superset of the JRE. It contains everything in the JRE, plus the tools necessary to develop Java applications, most importantly the compiler (javac).
 
-B. Syllabus Topic Mapping
+## B. Syllabus Topic Mapping
 Syllabus Topic
 
 File(s) / Class / Method Where Demonstrated
 
-OOP - Encapsulation
+### OOP - Encapsulation
 
 All domain classes (e.g., Student.java, Course.java) use private fields with public getters/setters.
 
-OOP - Inheritance
+### OOP - Inheritance
 
 Student.java and Instructor.java both extend the abstract Person.java class.
 
-OOP - Abstraction
+### OOP - Abstraction
 
 Person.java is an abstract class with an abstract String getProfile() method.
 
-OOP - Polymorphism
+### OOP - Polymorphism
 
 The getProfile() method is called on Person objects, but the Student or Instructor version is run.
 
-Interfaces
+### Interfaces
 
 Searchable.java defines a generic contract, implemented by StudentService and CourseService.
 
-Enums with Constructors
+### Enums with Constructors
 
 Grade.java is an enum where each constant (S, A, B) holds its own gradePoint value.
 
-Design Pattern - Singleton
+### Design Pattern - Singleton
 
 DataStore.java uses the Singleton pattern to ensure only one instance of the app's data exists.
 
-Design Pattern - Builder
+### Design Pattern - Builder
 
 Course.java uses a static nested CourseBuilder class to construct Course objects cleanly.
 
-Custom Exceptions
+### Custom Exceptions
 
 EnrollmentException.java and MaxCreditsException.java are custom checked exceptions.
 
-Modern I/O (NIO.2)
+### Modern I/O (NIO.2)
 
 FileService.java and BackupService.java use java.nio.file.Path and java.nio.file.Files.
 
-Streams & Lambdas
+### Streams & Lambdas
 
 TranscriptService.calculateGpa() and CourseService.findCoursesByInstructor().
 
-Recursion
+### Recursion
 
 BackupService.calculateDirectorySize() uses Files.walk to traverse the backup directory.
 
-Date/Time API
+### Date/Time API
 
 Student.java and Enrollment.java use java.time.LocalDate. BackupService uses LocalDateTime.
 
-Collections Framework
+### Collections Framework
 
 ArrayList is used throughout the DataStore and services to manage lists of objects.
 
-Enhanced Switch
+### Enhanced Switch
 
 The main application loop in CCRMApp.java uses the modern arrow-style switch expression.
 
-6. Setup Screenshots
+## 6. JAVA version
 JDK Installation Verification
 ![working](https://github.com/Vaibhav07116/CCRM/blob/9374f6a52ccae4727cb73e094f41efea1806996d/screenshots/Java%20version.png)
 
 
 
-7. Installing Eclipse IDE
+## 7. Installing Eclipse IDE
 
    
 ![working](https://github.com/Vaibhav07116/CCRM/blob/e178fb327e7f44db75fe8465890ce476d9fa56fd/screenshots/EclipseInstallation2.png)
@@ -180,5 +184,6 @@ JDK Installation Verification
 
 
 ![working](https://github.com/Vaibhav07116/CCRM/blob/e178fb327e7f44db75fe8465890ce476d9fa56fd/screenshots/EclipseInstallation4.png)
+
 
 
