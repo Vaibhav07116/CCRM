@@ -168,10 +168,17 @@ The main application loop in CCRMApp.java uses the modern arrow-style switch exp
 JDK Installation Verification
 ![working](https://github.com/Vaibhav07116/CCRM/blob/9374f6a52ccae4727cb73e094f41efea1806996d/screenshots/Java%20version.png)
 
-Eclipse Project Setup
 
 
-7. Application in Action Screenshots
-![working]()
+7. Installing Eclipse IDE
+
+   
+![working](https://github.com/Vaibhav07116/CCRM/blob/e178fb327e7f44db75fe8465890ce476d9fa56fd/screenshots/EclipseInstallation2.png)
+
+
+![working](https://github.com/Vaibhav07116/CCRM/blob/e178fb327e7f44db75fe8465890ce476d9fa56fd/screenshots/EclipseInstallation5.png)
+
+
+![working](https://github.com/Vaibhav07116/CCRM/blob/e178fb327e7f44db75fe8465890ce476d9fa56fd/screenshots/EclipseInstallation4.png)
 
 
