@@ -47,7 +47,7 @@ Click the "Browse..." button next to "Select root directory" and navigate to the
 The project should appear in the "Projects" box. Make sure it's checked.
 
 Click "Finish".
-![project import](./screenshots/jdk-verification.jpeg)
+![project import](https://github.com/Vaibhav07116/CCRM/blob/f558893c028058e9a711be8d0c84edb83e4bc85f/screenshots/eclipse-project-import.png)
 
 Run the Application:
 
@@ -58,6 +58,7 @@ Find the CCRMApp.java file.
 Right-click on CCRMApp.java and select Run As > 1 Java Application.
 
 The application will start running in the Console window at the bottom of the IDE.
+
 
 4. Usage Walkthrough
 Once the application is running, you can interact with it using the console menu:
@@ -172,3 +173,4 @@ Eclipse Project Setup
 
 7. Application in Action Screenshots
 ![working]()
+
