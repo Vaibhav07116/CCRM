@@ -58,7 +58,7 @@ Find the CCRMApp.java file.
 Right-click on CCRMApp.java and select Run As > 1 Java Application.
 
 The application will start running in the Console window at the bottom of the IDE.
-
+![working](https://github.com/Vaibhav07116/CCRM/blob/2eb2e6d44422f3ddfc495a7a22c518537069f400/screenshots/working.jpeg)
 
 4. Usage Walkthrough
 Once the application is running, you can interact with it using the console menu:
@@ -173,4 +173,5 @@ Eclipse Project Setup
 
 7. Application in Action Screenshots
 ![working]()
+
 
