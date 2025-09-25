@@ -47,6 +47,7 @@ Click the "Browse..." button next to "Select root directory" and navigate to the
 The project should appear in the "Projects" box. Make sure it's checked.
 
 Click "Finish".
+![project import](./screenshots/jdk-verification.jpeg)
 
 Run the Application:
 
@@ -164,9 +165,10 @@ The main application loop in CCRMApp.java uses the modern arrow-style switch exp
 
 6. Setup Screenshots
 JDK Installation Verification
-
+![working](https://github.com/Vaibhav07116/CCRM/blob/9374f6a52ccae4727cb73e094f41efea1806996d/screenshots/Java%20version.png)
 
 Eclipse Project Setup
 
 
 7. Application in Action Screenshots
+![working]()
